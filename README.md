@@ -4,7 +4,7 @@
 
 I build with TypeScript, React, Next.js and Node.js, and I like turning repetitive engineering work into small, understandable systems.
 
-🌐 **Website:** [micha-schindler.dev](https://micha-schindler.dev)  
+🌐 **Website:** [michael-schindler.dev](https://michael-schindler.dev)  
 💻 **GitHub:** [@mixu-94](https://github.com/mixu-94)
 
 ---
@@ -101,6 +101,6 @@ That mix is intentional: I enjoy building the product, but I also care about the
 
 For professional work, project inquiries or future opportunities:
 
-**[micha-schindler.dev](https://micha-schindler.dev)**
+**[michael-schindler.dev](https://michael-schindler.dev)**
 
 I use **MiXu** as my long-standing online name, while **Michael Schindler** is the professional identity behind the work.
