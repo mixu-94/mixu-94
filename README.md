@@ -13,10 +13,11 @@
 ### 🧠 About me
 
 - 🛠️ I write mostly **TypeScript** — Next.js on the front, Node.js on the back, Tailwind everywhere
+- 🧠 **AI agents are my daily driver** — I build agent workflows, MCP integrations and LLM-powered automation, and I let agents do real work in my own dev setup
 - 🤖 If I have to do something twice, I automate it. The third time I write a reusable workflow for it
 - 🏠 I run my own homelab & servers — Coolify, Docker, monitoring, the whole rabbit hole
 - 🎮 I build tooling for game communities (dashboards, Discord bots, server bridges)
-- 🧪 Past side quests: Web3 / Cardano NFTs, NFC tag verification, AI agents
+- 🧪 Past side quests: Web3 / Cardano NFTs, NFC tag verification
 
 ---
 
@@ -26,7 +27,8 @@
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **HAZRD** | A gaming network: website, *7 Days to Die* server dashboard & bridge, Discord bot with guild-as-code, uptime & economy monitoring | Next.js · Node.js · Discord.js · Docker |
+| **AI agents & automation** | Agent workflows, MCP servers and LLM integrations — from coding agents in my dev setup to automations in n8n | Claude · MCP · n8n · TypeScript |
+| **[HAZRD](https://github.com/HAZRD-Network/hazrd-platform)** | A gaming network: website, *7 Days to Die* server dashboard & bridge, Discord bot with guild-as-code, uptime & economy monitoring | Next.js · Node.js · Discord.js · Docker |
 | **Adaki** | Cardano NFT project — website, art engine and NFC-based physical-item verification | Next.js · Clerk · Drizzle · C (NFC) |
 | **[github-actions](https://github.com/mixu-94/github-actions)** | My shared CI/CD toolbox: reusable workflows for CI, releases, security audits and dependency updates | GitHub Actions · semantic-release · zizmor |
 | **Client work** | Web apps & portals for real-estate and SMB clients | Next.js · Payload CMS · Supabase |
@@ -47,6 +49,8 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 
 ---
 
