@@ -1,106 +1,64 @@
-# MiXu — Michael Schindler
+<h1 align="center">Hey, I'm MiXu 👋</h1>
+<p align="center">
+  <b>Michael Schindler</b> · Full-stack dev · Automation nerd · Self-hosting enthusiast<br>
+  I build web apps, game-server tooling and the boring-but-important stuff that keeps projects alive.
+</p>
 
-**Full-stack web developer focused on modern web applications, developer tooling, and practical automation.**
-
-I build with TypeScript, React, Next.js and Node.js, and I like turning repetitive engineering work into small, understandable systems.
-
-🌐 **Website:** [michael-schindler.dev](https://michael-schindler.dev)  
-💻 **GitHub:** [@mixu-94](https://github.com/mixu-94)
-
----
-
-## What I work with
-
-### Frontend
-
-`TypeScript` · `JavaScript` · `React` · `Next.js` · `HTML` · `CSS` · `Tailwind CSS`
-
-I have worked on everything from smaller React applications to larger Next.js projects with reusable UI systems, forms, dashboards and application flows.
-
-### Backend & data
-
-`Node.js` · `Express` · `REST APIs` · `MongoDB` · `Supabase` · `Redis` · `Payload CMS`
-
-My projects include API development, authentication flows, data validation, CMS-backed applications and integrations between frontend and backend services.
-
-### Quality & automation
-
-`GitHub Actions` · `CI/CD` · `ESLint` · `TypeScript` · `Vitest / Jest` · `Playwright` · `Dependabot`
-
-I increasingly focus on the engineering around the application as well: reproducible CI, testing, dependency maintenance, release workflows, permissions and workflow security.
-
-### Things I have explored
-
-`Web3 / blockchain` · `NFT tooling` · `Cardano` · `NFC verification` · `AI agents / LLM tooling` · `self-hosted software`
-
-Some of these started as experiments or forks, others became custom projects. I treat them as part of my technical exploration rather than presenting every repository as a finished product.
+<p align="center">
+  <a href="https://michael-schindler.dev"><img src="https://img.shields.io/badge/michael--schindler.dev-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"></a>
+</p>
 
 ---
 
-## Current focus
+### 🧠 About me
 
-Right now I am cleaning up and documenting selected older projects as proper references while building shared infrastructure for the projects I maintain.
-
-A big part of that work lives in **[mixu-94/github-actions](https://github.com/mixu-94/github-actions)** — my central repository for reusable CI, security, release and dependency-maintenance workflows.
-
-The goal is simple: projects should spend less code on repetitive repository setup and more code on the actual product.
-
----
-
-## Selected work
-
-### GitHub Actions toolbox
-
-**[mixu-94/github-actions](https://github.com/mixu-94/github-actions)**
-
-Reusable GitHub workflows and small in-house actions for:
-
-- Node.js / Next.js CI
-- linting, type checks and automated tests
-- security and workflow auditing
-- semantic releases
-- conservative dependency updates
-- automated pull-request creation
-- centralized, versioned project automation
-
-### Project references
-
-I am currently reviewing my existing repositories and preparing a smaller set of projects that best represent my work.
-
-Instead of listing every experiment, tutorial or fork, this section will focus on a few projects with useful context: **what the project solves, what I built, the technical decisions involved, and what I learned from it.**
-
-<!-- Future featured projects go here once their READMEs and public state are ready. -->
+- 🛠️ I write mostly **TypeScript** — Next.js on the front, Node.js on the back, Tailwind everywhere
+- 🤖 If I have to do something twice, I automate it. The third time I write a reusable workflow for it
+- 🏠 I run my own homelab & servers — Coolify, Docker, monitoring, the whole rabbit hole
+- 🎮 I build tooling for game communities (dashboards, Discord bots, server bridges)
+- 🧪 Past side quests: Web3 / Cardano NFTs, NFC tag verification, AI agents
 
 ---
 
-## How I like to build
+### 🚧 What I'm building
 
-- **Keep systems understandable.** Automation should remove work without becoming magic nobody wants to touch.
-- **Validate before shipping.** Linting, types, tests and CI should catch boring mistakes early.
-- **Automate repetition, not judgement.** Routine dependency updates can be automated; major architectural upgrades deserve review.
-- **Treat security as part of engineering.** Permissions, secrets, dependency trust and CI configuration matter too.
-- **Build for maintainability.** A project should still make sense when I return to it months later.
+> Most of my work lives in private repos — client projects and my own products. Here's the gist:
 
----
-
-## Background in projects
-
-My repositories reflect several phases of learning and building:
-
-**Frontend foundations** → JavaScript, React, routing and application state  
-**Full-stack applications** → Node.js, Express, authentication, APIs and databases  
-**Modern web platforms** → Next.js, TypeScript, Supabase, reusable UI and CMS-backed applications  
-**Experiments & integrations** → blockchain/Web3, Cardano, NFC and AI tooling  
-**Engineering infrastructure** → testing, CI/CD, dependency automation, releases and GitHub workflow security
-
-That mix is intentional: I enjoy building the product, but I also care about the systems that keep a product maintainable.
+| Project | What it is | Stack |
+| --- | --- | --- |
+| **HAZRD** | A gaming network: website, *7 Days to Die* server dashboard & bridge, Discord bot with guild-as-code, uptime & economy monitoring | Next.js · Node.js · Discord.js · Docker |
+| **Adaki** | Cardano NFT project — website, art engine and NFC-based physical-item verification | Next.js · Clerk · Drizzle · C (NFC) |
+| **[github-actions](https://github.com/mixu-94/github-actions)** | My shared CI/CD toolbox: reusable workflows for CI, releases, security audits and dependency updates | GitHub Actions · semantic-release · zizmor |
+| **Client work** | Web apps & portals for real-estate and SMB clients | Next.js · Payload CMS · Supabase |
 
 ---
 
-## Professional / contact
+### 🧰 Toolbox
 
-For professional work, project inquiries or future opportunities:
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Payload CMS](https://img.shields.io/badge/Payload_CMS-000?style=flat-square&logo=payloadcms&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
-**[michael-schindler.dev](https://michael-schindler.dev)**
+---
 
-I use **MiXu** as my long-standing online name, while **Michael Schindler** is the professional identity behind the work.
+### ⚙️ How I like to build
+
+- **Understandable > clever.** Automation should save work, not become magic nobody dares to touch
+- **Let the robots catch the boring bugs.** Types, lint, tests and CI before anything ships
+- **Automate repetition, not judgement.** Patch updates auto — major upgrades get a human
+- **Security is part of the job.** Pinned SHAs, minimal permissions, no secrets in repos. Ever.
+
+---
+
+<p align="center">
+  <sub>MiXu is my long-time handle — Michael Schindler is the human behind it. Wanna build something? → <a href="https://michael-schindler.dev">michael-schindler.dev</a></sub>
+</p>
