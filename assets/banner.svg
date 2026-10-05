@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="MiXu — Michael Schindler">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07060f"/>
+      <stop offset="0.55" stop-color="#150f33"/>
+      <stop offset="1" stop-color="#2a1a5e"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e9e4ff" stop-opacity="0.95"/>
+      <stop offset="0.6" stop-color="#a99cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6d5dfc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a99cff"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d5dfc" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6d5dfc" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#sky)"/>
+
+    <!-- stars -->
+    <g fill="#ffffff">
+      <circle cx="80" cy="40" r="1.2" opacity=".8"/><circle cx="160" cy="95" r="0.9" opacity=".5"/>
+      <circle cx="250" cy="30" r="1" opacity=".7"/><circle cx="330" cy="70" r="0.8" opacity=".4"/>
+      <circle cx="420" cy="22" r="1.3" opacity=".9"/><circle cx="510" cy="60" r="0.8" opacity=".5"/>
+      <circle cx="600" cy="35" r="1" opacity=".6"/><circle cx="690" cy="85" r="0.9" opacity=".5"/>
+      <circle cx="760" cy="28" r="1.1" opacity=".8"/><circle cx="1110" cy="40" r="1" opacity=".7"/>
+      <circle cx="1160" cy="110" r="0.8" opacity=".5"/><circle cx="1040" cy="150" r="0.7" opacity=".4"/>
+      <circle cx="40" cy="140" r="0.8" opacity=".4"/><circle cx="560" cy="120" r="0.7" opacity=".35"/>
+    </g>
+
+    <!-- moon -->
+    <circle cx="960" cy="105" r="110" fill="url(#moon)"/>
+    <circle cx="960" cy="105" r="46" fill="#e9e4ff" opacity=".9"/>
+
+    <!-- skyline back -->
+    <path fill="#1d1545" d="M0 300V230h40v-20h30v35h25v-60h35v45h30v-25h40v40h30v-70h20v-15h20v85h40v-35h35v45h30v-55h25v30h40v-20h35v45h45v-80h20v-20h18v100h40v-40h30v30h35v-55h30v45h40v-30h35v40h30v-65h25v50h40v-25h35v35h30v-50h40v45h35v-30h40v40h30v-60h25v55h40V300z"/>
+    <!-- skyline front -->
+    <path fill="#0d0a22" d="M0 300v-40h55v-25h30v35h45v-15h35v30h40v-45h25v40h50v-20h30v30h45v-35h20v-15h25v50h40v-25h35v30h45v-40h30v35h40v-20h35v30h50v-30h25v25h40v-45h30v40h45v-25h35v30h40v-35h30v40h45v-20h35v25h40V300z"/>
+    <!-- windows -->
+    <g fill="#a99cff" opacity=".55">
+      <rect x="150" y="215" width="3" height="4"/><rect x="158" y="225" width="3" height="4"/>
+      <rect x="330" y="200" width="3" height="4"/><rect x="338" y="212" width="3" height="4"/>
+      <rect x="512" y="190" width="3" height="4"/><rect x="520" y="205" width="3" height="4"/>
+      <rect x="760" y="200" width="3" height="4"/><rect x="1015" y="205" width="3" height="4"/>
+      <rect x="1090" y="215" width="3" height="4"/>
+    </g>
+    <rect y="200" width="1200" height="100" fill="url(#haze)"/>
+
+    <!-- torii silhouette -->
+    <g fill="#0d0a22" transform="translate(1090 175)">
+      <rect x="-48" y="0" width="96" height="7" rx="2"/>
+      <rect x="-40" y="14" width="80" height="5"/>
+      <rect x="-32" y="7" width="6" height="90"/>
+      <rect x="26" y="7" width="6" height="90"/>
+    </g>
+
+    <!-- text -->
+    <text x="64" y="98" fill="#a99cff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="4">MICHAEL SCHINDLER · BUILDER · DEVELOPER</text>
+    <text x="60" y="166" fill="url(#title)" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="76" font-weight="800">MiXu <tspan fill="#a99cff" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-weight="700">ツ</tspan></text>
+    <text x="372" y="166" fill="#ffffff" fill-opacity=".85" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="500">Full-stack · AI agents · Self-hosting</text>
+    <text x="64" y="204" fill="#ffffff" fill-opacity=".6" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" letter-spacing="2">やると決めたら、やり抜く。</text>
+  </g>
+</svg>
