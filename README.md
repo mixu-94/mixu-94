@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="MiXu — Michael Schindler · Full-stack · AI agents · Self-hosting" width="100%">
+  <img src="assets/banner.webp" alt="MiXu — Michael Schindler · Full-stack · AI agents · Self-hosting" width="100%">
 </p>
 
 <h3 align="center">Hey, I'm MiXu ツ 👋</h3>
